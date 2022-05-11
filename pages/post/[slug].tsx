@@ -117,13 +117,13 @@ function post({ post }: Props) {
               <span className="text-gray-700">Email</span>
               <input 
               {...register('email',{required: true})}
-              className="shadow border rounded py-2 px-3 form-input w-full ring-yellow-500 outline-none focus:ring" placeholder="John Apkolo" type="text"  />
+              className="shadow border rounded py-2 px-3 form-input w-full ring-yellow-500 outline-none focus:ring" placeholder="JohnApkolo@email.com" type="text"  />
           </label>
           <label className="block mb-5">
               <span className="text-gray-700">Comment</span>
               <textarea 
               {...register('comment',{required: true})}
-              className="shadow border py-2 px-3 form-textarea mt-1 block w-full outline-none ring-yellow-500 focus:ring" placeholder="John Apkolo"  rows={8}/>
+              className="shadow border py-2 px-3 form-textarea mt-1 block w-full outline-none ring-yellow-500 focus:ring" placeholder="Type something"  rows={8}/>
           </label>
 
           {/*error will return when field validation fails*/}
